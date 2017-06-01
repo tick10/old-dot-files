@@ -1,0 +1,34 @@
+volumeicon
+synapse
+dmenu_run
+clipit
+oblogout
+lxappearance
+compton -b
+MetroLL
+pkill MetroLL
+pkill jack_metro
+pkill compton
+xsensors
+/home/aaron/.config/openbox/autostart
+pkill tint2 
+pkill tint2
+gvim /home/aaron/.conkyrc
+obkey
+llxrandr
+lxrandr
+tint2
+tintwizard
+diskmgmt.msc
+LoLLauncher.exe
+windowsrun
+pkill conky
+thunar
+display-fix.sh
+gvim ~.xinitrc
+display-settings.sh
+nitrogen --restore
+ps3-setup-only-left-display.sh
+conky
+obmenu
+arandr

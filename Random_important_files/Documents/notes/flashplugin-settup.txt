@@ -1,0 +1,8 @@
+Ok so this is just going to explain that since i'm using an nvidia graphics card and
+and i'm supposed to have full support for it on arch linux evidently it uses a 
+library called libvdpau for gpu excelleration and supposedly my card supports it. But
+flash plugin is asking for you to uncomment EnableLinuxHWVideoDecode=1 
+from /etc/adobe/mms.cfg. to give flash player GPU acceleration on flash videos. 
+
+I might rename this file Nvidea setup if i have to edit more config files because of
+my nvidea card...

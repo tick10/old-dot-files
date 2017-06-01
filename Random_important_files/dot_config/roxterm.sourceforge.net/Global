@@ -1,0 +1,4 @@
+[roxterm options]
+encoding=ISO-8859-1
+only_warn_running=1
+prefer_dark_theme=1

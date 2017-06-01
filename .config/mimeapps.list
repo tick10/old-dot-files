@@ -1,0 +1,7 @@
+[Added Associations]
+video/x-matroska=vlc.desktop;
+video/mpeg=vlc.desktop;
+video/x-msvideo=vlc.desktop;banshee.desktop;
+video/mp4=vlc.desktop;
+application/x-brasero=brasero.desktop;
+application/x-cd-image=brasero.desktop;

@@ -1,0 +1,208 @@
+exec -a banshee mono  /usr/lib/banshee/Banshee.exe    --redirect-log --play-enqueued /mnt/hitachi/Movies/The Fast And The Furious/Fast.And.Furious.6.2013.CAM.XviD-NYDIC/Fast.And.Furious.6.2013.CAM.XviD-NYDIC.avi
+
+[Info  10:28:48.592] Running Banshee 2.6.2: [ArchLinux (linux-gnu, x86_64) @ 2015-02-23 15:51:29 UTC]
+[Warn  10:28:50.751] Cannot connect to NetworkManager or Wicd - An available, working network connection will be assumed
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 110 was not found when attempting to remove it
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkComponent) to class (__gtksharp_49_Hyena_Gui_BaseWidgetAccessible) after class_init
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_50_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_TrackInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_50_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_TrackInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  10:28:51.539] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.TrackInfo].EmitModelChanged () [0x00000] in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.TrackInfo].OnModelChanged (System.Object o, System.EventArgs a) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.TrackInfo]..ctor (GLib.Object widget) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[Banshee.Collection.TrackInfo].Init () [0x00000] in <filename unknown>:0 
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_55_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_Database_QueryFilterInfo+601+5b+5bSystem_String+2c+20mscorlib+2c+20Version+3d4_0_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3db77a5c561934e089+5d+5d+2c+20Banshee_Services+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_55_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_Database_QueryFilterInfo+601+5b+5bSystem_String+2c+20mscorlib+2c+20Version+3d4_0_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3db77a5c561934e089+5d+5d+2c+20Banshee_Services+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  10:28:51.609] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.Database.QueryFilterInfo`1[System.String]].EmitModelChanged () [0x00000] in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.Database.QueryFilterInfo`1[System.String]].OnModelChanged (System.Object o, System.EventArgs a) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.Database.QueryFilterInfo`1[System.String]]..ctor (GLib.Object widget) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[Banshee.Collection.Database.QueryFilterInfo`1[System.String]].Init () [0x00000] in <filename unknown>:0 
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_60_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_ArtistInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_60_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_ArtistInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  10:28:51.617] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.ArtistInfo].EmitModelChanged () [0x00000] in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.ArtistInfo].OnModelChanged (System.Object o, System.EventArgs a) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.ArtistInfo]..ctor (GLib.Object widget) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[Banshee.Collection.ArtistInfo].Init () [0x00000] in <filename unknown>:0 
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_65_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_YearInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_65_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_YearInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  10:28:51.620] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.YearInfo].EmitModelChanged () [0x00000] in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.YearInfo].OnModelChanged (System.Object o, System.EventArgs a) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.YearInfo]..ctor (GLib.Object widget) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[Banshee.Collection.YearInfo].Init () [0x00000] in <filename unknown>:0 
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_70_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_AlbumInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:15387): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_70_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_AlbumInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  10:28:51.624] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.AlbumInfo].EmitModelChanged () [0x00000] in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.AlbumInfo].OnModelChanged (System.Object o, System.EventArgs a) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[Banshee.Collection.AlbumInfo]..ctor (GLib.Object widget) [0x00000] in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[Banshee.Collection.AlbumInfo].Init () [0x00000] in <filename unknown>:0 
+
+(gst-plugin-scanner:15396): GStreamer-WARNING **: Failed to load plugin '/usr/lib/gstreamer-1.0/libgstopenal.so': libopenal.so.1: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:15396): GStreamer-WARNING **: Failed to load plugin '/usr/lib/gstreamer-1.0/libgstopencv.so': libopencv_calib3d.so.2.4: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:15396): GStreamer-WARNING **: Failed to load plugin '/usr/lib/gstreamer-1.0/libgstopenexr.so': libIlmImf-Imf_2_1.so.21: cannot open shared object file: No such file or directory
+[Info  10:28:53.763] Updating web proxy from GConf
+[Warn  10:28:53.807] Caught an exception - System.ApplicationException: No support GNOME Settings Daemon could be reached. (in `Banshee.MultimediaKeys')
+  at Banshee.MultimediaKeys.MultimediaKeysService.Banshee.ServiceStack.IExtensionService.Initialize () [0x00000] in <filename unknown>:0 
+  at Banshee.ServiceStack.ServiceManager.StartExtension (Mono.Addins.TypeExtensionNode node) [0x00000] in <filename unknown>:0 
+[Warn  10:28:53.807] Extension `Banshee.MultimediaKeys.MultimediaKeysService' not started: No support GNOME Settings Daemon could be reached.
+[Warn  10:28:53.839] Caught an exception - System.ApplicationException: No support GNOME Settings Daemon could be reached. (in `Banshee.MultimediaKeys')
+  at Banshee.MultimediaKeys.MultimediaKeysService.Banshee.ServiceStack.IExtensionService.Initialize () [0x00000] in <filename unknown>:0 
+  at Banshee.ServiceStack.ServiceManager.StartExtension (Mono.Addins.TypeExtensionNode node) [0x00000] in <filename unknown>:0 
+[Warn  10:28:53.839] Extension `Banshee.MultimediaKeys.MultimediaKeysService' not started: No support GNOME Settings Daemon could be reached.
+[Info  10:28:53.840] All services are started 3.244896
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 142 was not found when attempting to remove it
+[Info  10:28:54.157] AmazonMP3 store redirect URL: http://integrated-services.banshee.fm/amz/redirect.do/
+[Info  10:28:54.561] nereid Client Started
+[Info  10:28:54.675] GStreamer version 1.4.5.0, gapless: True, replaygain: False
+[Info  10:28:54.764] AppleDeviceSource is ignoring unmounted volume 58 GB Volume
+[Info  10:28:57.026] GNOME screensaver service not found
+
+(Banshee:15387): GStreamer-CRITICAL **: gst_element_query: assertion 'GST_IS_ELEMENT (element)' failed
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 762 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 531 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 715 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 857 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 731 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 761 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 794 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 855 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 714 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 1178 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 853 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 760 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 851 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 758 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 849 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 1132 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 730 was not found when attempting to remove it
+Cairo.Pattern is leaking, programmer is missing a call to Dispose
+Set MONO_CAIRO_DEBUG_DISPOSE to track allocation traces
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 847 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 1130 was not found when attempting to remove it
+Cairo.Surface is leaking, programmer is missing a call to Dispose
+Set MONO_CAIRO_DEBUG_DISPOSE to track allocation traces
+Cairo.Surface is leaking, programmer is missing a call to Dispose
+Set MONO_CAIRO_DEBUG_DISPOSE to track allocation traces
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 845 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 1128 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 753 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 843 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 1126 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 707 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 841 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 1124 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 706 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 839 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 837 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 835 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 728 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 833 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 831 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 722 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 702 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 829 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 727 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 827 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 733 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 713 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 825 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 719 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 749 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 823 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 721 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 863 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 764 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 718 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 748 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 821 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 738 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 861 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 720 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 763 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 717 was not found when attempting to remove it
+
+(Banshee:15387): GLib-CRITICAL **: Source ID 859 was not found when attempting to remove it

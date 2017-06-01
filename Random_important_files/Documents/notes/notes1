@@ -1,0 +1,17 @@
+Ok this is just going to be a helpful file for me to remember where all the 
+files that i have changed are during the setup of this computer.
+
+First i copied my ~/.xinitrc file from the rsync on my hitachi. in fact i have
+yet to use and of the file i put on the bitch drive because the rsync is going
+be exactly what was there before. I also copied all the openbox config files
+from the archbang rsync file. 
+
+The NFS config files are located here /etc/conf.d/nfs-common.conf and in 
+/etc/conf.d/nfs-server.conf 
+
+I also edited my /etc/mkinitcpio.conf file and added the v86d hook to it in 
+the hooks section to make it read the screen resolution from:
+/usr/lib/modprobe.d/uvesafb.conf
+This is supposedly a uvesafb option that is built into the kernel. I haven't 
+tested it yet, cause i just did it and i still had other things i wanted to do
+before i restarted and closed all my browser windows... Might edit this later.

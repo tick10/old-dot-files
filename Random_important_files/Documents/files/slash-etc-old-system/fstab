@@ -1,0 +1,21 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# /dev/sda1 LABEL=slash
+LABEL=slash	/         	btrfs     	rw,relatime,space_cache	0 0
+
+# /dev/sda2 LABEL=home
+LABEL=home	/home     	btrfs     	rw,relatime,space_cache	0 0
+
+# /dev/sdb1 LABEL=bitch
+LABEL=bitch	/mnt/bitch	reiserfs  	rw,relatime	0 2
+
+# /dev/sdb2 LABEL=junkdrwr
+LABEL=junkdrwr	/mnt/junk 	btrfs     	rw,relatime,space_cache	0 0
+
+# /dev/sdc LABEL=Hitachi\134x20500
+UUID=2966301f-cf4d-45d4-88fa-277c78e66c10	/mnt/hitachi	ext4      	rw,relatime,data=ordered	0 2
+
+# /dev/sda3 swap 82
+/dev/sda3	none	swap	defaults		0 0

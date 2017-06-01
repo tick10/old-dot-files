@@ -1,0 +1,42 @@
+{
+   "checksum": "7de7b59ee26839fe9beefc64b894d975",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13068215019198447",
+            "id": "5",
+            "name": "environment variables - What are \"$PATH\" and \"~/bin\"? How can I have personal scripts? - Ask Ubuntu",
+            "type": "url",
+            "url": "http://askubuntu.com/questions/9848/what-are-path-and-bin-how-can-i-have-personal-scripts"
+         }, {
+            "date_added": "13070097026283592",
+            "id": "7",
+            "name": "[SOLVED] OpenGL GLX problem (glxinfo - Xlib: extension \"GLX\" missing) / Applications & Desktop Environments / Arch Linux Forums",
+            "type": "url",
+            "url": "https://bbs.archlinux.org/viewtopic.php?id=189898"
+         } ],
+         "date_added": "13068167715431795",
+         "date_modified": "13070097026283592",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13068167715431810",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13068167715431811",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

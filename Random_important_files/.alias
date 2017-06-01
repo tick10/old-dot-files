@@ -1,0 +1,20 @@
+# Personal .alias file for bash and zsh sourced in both .bashrc and .zshrc 
+# for shell aliases and functions. Thanks very much :)
+
+alias install="sudo pacman -S"
+alias cp='cp -iv'
+alias ls='ls --color=always'
+alias ll='ls -l --color=auto'
+alias la='ls -la --color=auto'
+alias l.='ls -lA .* --color=auto'
+alias l=less
+alias m=most
+alias remove='sudo pacman -Rns'
+alias mv='mv -i'
+alias pacshow='pacman -Si'
+alias paccheck='pacman -Qi'
+alias vi=vim
+alias db=deadbeef
+alias n64='mupen64plus'
+alias tor='tor-browser-en'
+

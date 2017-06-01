@@ -1,0 +1,31 @@
+[global_config]
+  focus = mouse
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    background_darkness = 0.3
+    scrollback_lines = 5000
+    background_type = transparent
+    background_image = None
+    show_titlebar = False
+    cursor_shape = ibeam
+    font = Terminus 13
+  [[zsh]]
+    background_image = None
+    custom_command = zsh
+    scrollback_lines = 2000
+    background_type = transparent
+    use_custom_command = True
+    background_darkness = 0.75
+    cursor_shape = ibeam
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

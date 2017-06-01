@@ -1,0 +1,28 @@
+# Add vim as default editor
+export EDITOR=vim
+export TERMINAL=terminator
+export BROWSER=firefox
+export PATH="$HOME/bin:$PATH"
+
+# Gtk themes 
+export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+# Color ls results
+alias ls='ls --color=auto'
+
+# Makes bash use my personal .alias file located in my home directory
+source ~/.alias
+
+# My personal bash prompt. 
+PS1='\[\e[0;33m\][\T]\u@\h\[\e[1;35m\] \w \n\$\[\e[0m\] '
+
+# Set default permissions to allow group writing 
+# rwxrwxr_x
+umask 0002
+
+# This is just to make LoL work for ryan disable and delete a bunch of shit if you ever don't want it anymore
+alias wine32='env WINEARCH=win32 WINEPREFIX="$HOME/.wine32" wine'
+
+# This made that cool archbang logo and system info come up when 
+# starting a terminal
+#[ ! "$UID" = "0" ] && archbey2
+

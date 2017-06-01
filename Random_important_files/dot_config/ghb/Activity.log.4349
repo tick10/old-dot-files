@@ -1,0 +1,37 @@
+[22:03:19] gtkgui: HandBrake 0.10.0 (2014121000) - Linux x86_64 - https://handbrake.fr
+[22:03:19] hb_init: starting libhb thread
+[22:03:19] hb_init: starting libhb thread
+libdvdread: Encrypted DVD support unavailable.
+[22:03:21] CPU: 
+[22:03:21]  - logical processor count: 6
+[22:03:21] OpenCL: library not available
+[22:03:21] hb_scan: path=/home/aaron/Downloads/Wild.Card.2015.HDRip.X264-PLAYNOW/Wild.Card.2015.HDRip.X264-PLAYNOW.mp4, title_index=0
+index_parse.c:190: indx_parse(): error opening /home/aaron/Downloads/Wild.Card.2015.HDRip.X264-PLAYNOW/Wild.Card.2015.HDRip.X264-PLAYNOW.mp4/BDMV/index.bdmv
+index_parse.c:190: indx_parse(): error opening /home/aaron/Downloads/Wild.Card.2015.HDRip.X264-PLAYNOW/Wild.Card.2015.HDRip.X264-PLAYNOW.mp4/BDMV/BACKUP/index.bdmv
+bluray.c:2365: nav_get_title_list(/home/aaron/Downloads/Wild.Card.2015.HDRip.X264-PLAYNOW/Wild.Card.2015.HDRip.X264-PLAYNOW.mp4) failed
+[22:03:21] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 5.0.2
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[22:03:21] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/aaron/Downloads/Wild.Card.2015.HDRip.X264-PLAYNOW/Wild.Card.2015.HDRip.X264-PLAYNOW.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 1
+    compatible_brands: isomavc1
+    creation_time   : 2015-01-30 05:45:43
+  Duration: 01:32:19.70, start: 0.000000, bitrate: 1807 kb/s
+    Stream #0.0(und): Video: h264 (High), yuv420p, 720x304, 1643 kb/s, 23.98 fps, 24k tbn, 180k tbc (default)
+    Metadata:
+      creation_time   : 2015-01-30 05:45:43
+    Stream #0.1(eng): Audio: aac, 48000 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      creation_time   : 2015-01-30 05:45:56
+[22:03:21] scan: decoding previews for title 1
+[22:03:21] scan: audio 0x1: aac, rate=48000Hz, bitrate=160224 English (AAC) (2.0 ch)
+[22:03:21] scan: 10 previews, 720x304, 23.976 fps, autocrop = 0/0/0/0, aspect 2.37:1, PAR 1:1
+[22:03:21] libhb: scan thread found 1 valid title(s)
+libdvdread: Encrypted DVD support unavailable.

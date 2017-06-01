@@ -1,0 +1,4 @@
+#bin!bash
+
+java -jar /home/aaron/Downloads/spacetrader_1.12.jar &
+clear

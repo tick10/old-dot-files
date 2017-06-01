@@ -1,0 +1,67 @@
+# Set history file to ~/.zsh_history like it was before
+# Set session history to 1500 commands and save 5000 commands
+# in the .zsh_history file
+HISTFILE=~/.zsh_history
+HISTSIZE=1500
+SAVEHIST=5000
+
+# Turn off audible beep when there is an error and turn on beep when 
+# completion can't be made.
+unsetopt beep
+setopt autocd beep extendedglob notify
+
+# Use vim keybindings even if you use a different editor
+bindkey -v
+
+# Ignore history duplicates
+# and share history somehow i don't remember look it up
+setopt histignorealldups sharehistory
+
+# The following lines were added by compinstall (and appended by aaron)
+# Copied these next 20 or so lines from old .zshrc I'm pretty sure 
+# most of them are important for completion and color and general 
+# good stuff like that. So look them up one day. I also think the first line
+# just sets this file as the one thats edited if I run 'autoload -Uz compinstall
+# ; compinstall' and thats the one line that compinstall supposedly added here
+zstyle :compinstall filename '/home/aaron/.zshrc'
+zstyle ':completion:*' auto-description 'specify: %d'
+zstyle ':completion:*' completer _expand _complete _correct _approximate
+zstyle ':completion:*' format 'Completing %d'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' menu select=2
+eval "$(dircolors -b)"
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
+zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
+zstyle ':completion:*' menu select=long
+zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
+zstyle ':completion:*' use-compctl false
+zstyle ':completion:*' verbose true
+
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+
+# Use modern completion system (copied this also)
+autoload -Uz compinit
+compinit
+
+# Set up the prompt
+autoload -Uz promptinit
+promptinit
+prompt adam2
+
+# Set up ls colors
+alias ls='ls --color=auto'
+alias ll='ls -l'
+
+# Add personal bin to the PATH env variable
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+# this sources my ~/.alias file which contains all of my aliases and functions
+# for both bash and zsh much more easier to only edit one file for both
+source ~/.alias 
+

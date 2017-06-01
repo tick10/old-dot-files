@@ -1,0 +1,11 @@
+[roxterm profile]
+colour_scheme=GTK
+font=Droid Sans Mono 10
+background_type=2
+background_img=/home/aaron/Pictures/Wallpapers/dark-7292-7572-hd-wallpapers.jpg.png
+saturation=0.434028
+show_resize_grip=0
+scrollbar_pos=1
+scrollback_lines=2000
+disable_menu_shortcuts=1
+cursor_shape=1

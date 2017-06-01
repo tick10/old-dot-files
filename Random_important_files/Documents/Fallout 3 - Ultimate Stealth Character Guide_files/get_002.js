@@ -1,0 +1,23 @@
+{var dz=document;
+dz.writeln("<script language=\"Javascript1.1\" type=\"text/javascript\">");
+dz.writeln("var ftClick = \"http://media.fastclick.net/w/click.here?cid=542141;mid=1213267;m=1;sid=30007;c=0;tp=5;UD=CQAAAAAAAABAEQAAAAAAAAAAGQAAAAAAAAAAIQ7W-znMl0c-KAAwAFoSODIzOTcyMDEyMTY5MDM2NzkzaKHhkqcFcAKIAdOGSpABvYshmAG36gGgAQGoAQXwAQCyAg0xMDguMjAyLjYxLjI1;upsid=823972012169036793;forced_click=\";");
+dz.writeln("var ftExpTrack_1090640 = \"\";");
+dz.writeln("var ftX = \"\";");
+dz.writeln("var ftY = \"\";");
+dz.writeln("var ftZ = \"\";");
+dz.writeln("var ftOBA = 1;");
+dz.writeln("var ftContent = \"\";");
+dz.writeln("var ftCustom = \"\";");
+dz.writeln("var ft728x90_OOBclickTrack = \"\";");
+dz.writeln("var ftRandom = Math.random()*1000000;");
+dz.writeln("var ftBuildTag1 = \"<scr\";");
+dz.writeln("var ftBuildTag2 = \"</\";");
+dz.writeln("var ftClick_1090640 = ftClick;");
+dz.writeln("if(typeof(ft_referrer)==\"undefined\"){var ft_referrer=(function(){var r=\"\";if(window==top){r=window.location.href;}else{try{r=window.parent.location.href;}catch(e){}r=(r)?r:document.referrer;}while(encodeURIComponent(r).length>1000){r=r.substring(0,r.length-1);}return r;}());}");
+dz.writeln("var ftDomain = (window==top)?\"\":(function(){var d=document.referrer,h=(d)?d.match(\"(?::q/q/)+([qw-]+(q.[qw-]+)+)(q/)?\".replace(/q/g,decodeURIComponent(\"%\"+\"5C\")))[1]:\"\";return (h&&h!=location.host)?\"&ft_ifb=1&ft_domain=\"+encodeURIComponent(h):\"\";}());");
+dz.writeln("var ftTag = ftBuildTag1 + 'ipt language=\"javascript1.1\" type=\"text/javascript\" ';");
+dz.writeln("ftTag += 'src=\"http://servedby.flashtalking.com/imp/4/29512;1090640;201;js;ValueClickMedia;ConversantCPAAcquisitionFebruary728x90FT/?ftx='+ftX+'&fty='+ftY+'&ftadz='+ftZ+'&ftscw='+ftContent+'&ft_custom='+ftCustom+'&ftOBA='+ftOBA+ftDomain+'&ft_referrer='+encodeURIComponent(ft_referrer)+'&cachebuster='+ftRandom+'\" id=\"ftscript_728x90\" name=\"ftscript_728x90\"';");
+dz.writeln("ftTag += '>' + ftBuildTag2 + 'script>';");
+dz.writeln("document.write(ftTag);");
+dz.writeln("<\/script><script type=\"text/javascript\">(function(){document.write('<span id=\"425716419\"><sc'+'ript type=\"text/javascript\" src=\"'+((\"https:\"==document.location.protocol)?\"https://s-\":\"http://\")+'usweb.dotomi.com/adinfo/script/prod/?w=728&h=90&cid=2000&plc=tr&lang=en-US&loc=us&optout_options=global\"></scr'+'ipt></span>');}());<\/script>");
+dz.writeln("");}

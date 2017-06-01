@@ -1,0 +1,8 @@
+
+#Stop Screen From Shutting Off
+Section "ServerFlags"
+        Option	"BlankTime"	"0"
+        Option	"StandbyTime"	"0"
+        Option	"SuspendTime"	"0"
+        Option	"OffTime"	"0"
+EndSection

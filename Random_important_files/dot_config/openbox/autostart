@@ -1,0 +1,22 @@
+#(sleep 3 && /usr/bin/nm-applet --sm-disable) &
+tint2 &
+volumeicon &
+#hsetroot -fill /usr/share/wallpapers/nightsky.jpg  &
+clipit &
+conky &
+nitrogen --restore &
+synapse -s &
+compton -bc
+
+# Drive mounts didn't know where else to put them since i only want them 
+# mounted if im in a GUI
+(sleep 3 && mnt /dev/sda1 /mnt/windows) &
+(sleep 5 && mnt /dev/sdb3 /mnt/games) &
+
+# Enable as required
+#xbacklight -set 100 &
+#/usr/bin/synclient TouchpadOff=1 &
+#xxkb &
+#spacefm -d &
+#setxkbmap gb &
+thunar --daemon &

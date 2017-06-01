@@ -1,0 +1,85 @@
+# conky configuration
+#
+# The list of variables has been removed from this file in favour
+# of keeping the documentation more maintainable.
+# Check http://conky.sf.net for an up-to-date-list.
+#
+# For ideas about how to modify conky, please see:
+# http://crunchbanglinux.org/forums/topic/59/my-conky-config/
+#
+# For help with conky, please see:
+# http://crunchbanglinux.org/forums/topic/2047/conky-help/
+#
+# Enjoy! :)
+##############################################
+# Settings
+##############################################
+background yes
+use_xft yes
+xftfont Sans:size=8
+xftalpha 1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 200 200
+maximum_width 200
+draw_shades yes
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color white
+default_shade_color black
+default_outline_color white
+alignment top_right
+gap_x 12
+gap_y 12
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale no
+
+TEXT
+${font ttf-droid:bold:size=10}SYSTEM ${hr 2}
+${font ttf-droid:normal:size=10}$sysname $kernel $alignr $machine
+Host:$alignr$nodename
+Uptime:$alignr$uptime
+File System: $alignr${fs_type}
+
+${font ttf-droid:bold:size=10}PROCESSORS ${hr 2}
+${font ttf-droid:normal:size=10}${cpugraph cpu1}
+CPU1: ${cpu cpu1}% ${cpubar cpu1}
+CPU2: ${cpu cpu2}% ${cpubar cpu2}
+CPU3: ${cpu cpu3}% ${cpubar cpu3}
+CPU4: ${cpu cpu4}% ${cpubar cpu4}
+CPU5: ${cpu cpu5}% ${cpubar cpu5}
+CPU6: ${cpu cpu6}% ${cpubar cpu6}
+
+
+${font ttf-droid:bold:size=10}MEMORY ${hr 2}
+${font ttf-droid:normal:size=10}RAM $alignc $mem / $memmax $alignr $memperc%
+$membar
+
+${font ttf-droid:bold:size=10}DISKS ${hr 2}
+${font ttf-droid:normal:size=10}/ $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
+${fs_bar /}
+SWAP $alignc ${swap} / ${swapmax} $alignr ${swapperc}%
+${swapbar}
+
+${font ttf-droid:bold:size=10}TOP PROCESSES ${hr 2}
+${font ttf-droid:normal:size=10}${top_mem name 1}${alignr}${top mem 1} %
+${font ttf-droid:normal:size=10}${top_mem name 2}${alignr}${top mem 2} %
+${font ttf-droid:normal:size=10}${top_mem name 3}${alignr}${top mem 3} %
+${font ttf-droid:normal:size=10}${top_mem name 4}${alignr}${top mem 4} %
+${font ttf-droid:normal:size=10}${top_mem name 5}${alignr}${top mem 5} %
+
+${font ttf-droid:bold:size=10}NETWORK ${hr 2}
+${font ttf-droid:normal:size=10}IP address: $alignr ${addr enp2s1}
+
+
+DLS:${downspeed enp2s0} kb/s $alignr total: ${totaldown enp2s0}
+${upspeedgraph enp2s0}
+ULS:${upspeed enp2s0} kb/s $alignr total: ${totalup enp2s0}

@@ -1,0 +1,21 @@
+body{background-color:#e7ebf2}
+a:hover{text-decoration:underline;color:#000}
+.body{background-color:#FFF;border-color:#636363;border-style:solid;border-width:1px}
+.linksmall{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#000}
+.footer{font-family:Tahoma,Geneva,sans-serif;font-size:11px;color:#454545}
+.pointline{border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#CCC;font-family:Arial,Helvetica,sans-serif;font-size:12px}
+.pointlinehead{background-color:#f3f3f3;border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#CCC;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:700}
+.pointlinetrainer{border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#CCC;background-color:#f3f3f3;font-family:Arial,Helvetica,sans-serif;font-size:13px}
+.header1{background-color:#eeeff0;border-top-width:1px;border-bottom-width:1px;border-top-style:solid;border-bottom-style:solid;border-top-color:#939393;border-bottom-color:#939393;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:700;color:#000}
+.header2{background-color:#f3f3f3;border-top-width:1px;border-bottom-width:1px;border-top-style:solid;border-bottom-style:solid;border-top-color:#939393;border-bottom-color:#939393;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#000}
+.headercb1{background-color:#f3f3f3;border-top-width:1px;border-bottom-width:1px;border-top-style:dotted;border-bottom-style:dotted;border-top-color:#CCC;border-bottom-color:#CCC;font-family:Arial,Helvetica,sans-serif;font-size:12px}
+.handover{cursor:help}
+.picborder{border:1px solid #000}
+.txtmain{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#000}
+a:link,a:visited{text-decoration:none;color:#000}
+.headercheat,.headersocial{background-color:#f3f3f3;border-top-width:1px;border-bottom-width:1px;border-top-style:dotted;border-bottom-style:dotted;border-top-color:#CCC;border-bottom-color:#CCC}
+.topictitle{font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;margin:0;padding:0}
+.topichead{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:normal;margin:0;padding:0}
+.topichead2{font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;margin:0;padding:0}
+.post_text {font-family: Helvetica, Arial, Lucida Grande, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 19.200000762939453px; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline; float: none}
+.post_text p {text-align: justify;background-color:#f3f3f3; border-top-width:1px;border-bottom-width:1px;border-top-style:dotted;border-bottom-style:dotted;border-top-color:#CCC;border-bottom-color:#CCC}
